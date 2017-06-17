@@ -1,0 +1,22 @@
+{
+  "name": "ng2-rx-destroyable-component",
+  "version": "1.0.1",
+  "description": "Small package with decorators and helpers which helps in managing RxJS unsubscription in easy manner (not annoying) in Angular world",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paweł Giemza",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  },
+  "peerDependencies": {
+    "rxjs": "^5.0.0"
+  }
+}
